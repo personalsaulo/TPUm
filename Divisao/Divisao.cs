@@ -1,23 +1,23 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+
 
 namespace Divisao
 {
-    class Program
+   public class Divisao
     {
-        static void Main(string[] args)
+
+        static void Main() { }
+        public void Divide()
         {
+            Console.WriteLine("Essa aplicação calcula a divisão de dois numeros");
+            Console.WriteLine("Digite o primeiro numero:");
+            int numeroUm = int.Parse(Console.ReadLine());
+            Console.WriteLine("Digite o segundo numero");
+            int numeroDois = int.Parse(Console.ReadLine());
 
+            Console.WriteLine("O resultado da Divião de " + numeroUm + "/ " + numeroDois + "é : " + numeroUm / numeroDois + " !");
 
-
-        }
-
-        private int Divide(int numeroUm, int numeroDois)
-        {
-            return numeroUm / numeroDois;
+            
         }
     }
 }
