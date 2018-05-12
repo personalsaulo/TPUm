@@ -1,8 +1,5 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+
 
 namespace ProjetoUm
 {
@@ -10,6 +7,11 @@ namespace ProjetoUm
     {
         static void Main(string[] args)
         {
+            Soma.Soma somatorio = new Soma.Soma();
+            somatorio.Some();
+
+            
+            
         }
     }
 }

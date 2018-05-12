@@ -4,10 +4,10 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{C0B95400-72F6-443D-9D1D-692D36508D5E}</ProjectGuid>
+    <ProjectGuid>{3F9D7E0D-5AC7-4DD3-95C5-FD4C7A2E4075}</ProjectGuid>
     <OutputType>Exe</OutputType>
-    <RootNamespace>ProjetoUm</RootNamespace>
-    <AssemblyName>ProjetoUm</AssemblyName>
+    <RootNamespace>Multiplicação</RootNamespace>
+    <AssemblyName>Multiplicação</AssemblyName>
     <TargetFrameworkVersion>v4.6.1</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
@@ -42,7 +42,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Program.cs" />
+    <Compile Include="Multiplicacao.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>

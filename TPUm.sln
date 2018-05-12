@@ -3,7 +3,15 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
 VisualStudioVersion = 15.0.27428.1
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ProjetoUm", "ProjetoUm\ProjetoUm.csproj", "{C0B95400-72F6-443D-9D1D-692D36508D5E}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Calculadora", "ProjetoUm\Calculadora.csproj", "{C0B95400-72F6-443D-9D1D-692D36508D5E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Soma", "Soma\Soma.csproj", "{FFBB216B-F1B1-4F4E-8DDA-FA5A6717265D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Subtracao", "Subtracao\Subtracao.csproj", "{618CCEE3-350C-4E43-BB48-3111BEC593FC}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Multiplicação", "Multiplicação\Multiplicação.csproj", "{3F9D7E0D-5AC7-4DD3-95C5-FD4C7A2E4075}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Divisao", "Divisao\Divisao.csproj", "{9E05860A-0EC9-42F2-A853-403AAB784D99}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,6 +23,22 @@ Global
 		{C0B95400-72F6-443D-9D1D-692D36508D5E}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{C0B95400-72F6-443D-9D1D-692D36508D5E}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{C0B95400-72F6-443D-9D1D-692D36508D5E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FFBB216B-F1B1-4F4E-8DDA-FA5A6717265D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FFBB216B-F1B1-4F4E-8DDA-FA5A6717265D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FFBB216B-F1B1-4F4E-8DDA-FA5A6717265D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FFBB216B-F1B1-4F4E-8DDA-FA5A6717265D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{618CCEE3-350C-4E43-BB48-3111BEC593FC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{618CCEE3-350C-4E43-BB48-3111BEC593FC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{618CCEE3-350C-4E43-BB48-3111BEC593FC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{618CCEE3-350C-4E43-BB48-3111BEC593FC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3F9D7E0D-5AC7-4DD3-95C5-FD4C7A2E4075}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3F9D7E0D-5AC7-4DD3-95C5-FD4C7A2E4075}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3F9D7E0D-5AC7-4DD3-95C5-FD4C7A2E4075}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3F9D7E0D-5AC7-4DD3-95C5-FD4C7A2E4075}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9E05860A-0EC9-42F2-A853-403AAB784D99}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9E05860A-0EC9-42F2-A853-403AAB784D99}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9E05860A-0EC9-42F2-A853-403AAB784D99}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9E05860A-0EC9-42F2-A853-403AAB784D99}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
