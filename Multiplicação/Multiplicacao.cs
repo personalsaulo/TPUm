@@ -19,7 +19,7 @@ namespace Multiplicação
 
             int resultado = numeroUm * numeroDois;
 
-                Console.WriteLine("O resultado da multiplicação de " + numeroUm + " x " + numeroDois + " é : " + resultado + " !");
+                Console.WriteLine("O resultado da multiplicação de " + numeroUm + " x " + numeroDois + " é : " + resultado + " !" +"\n");
         }
     }
 }

@@ -6,15 +6,23 @@ using System.Threading.Tasks;
 
 namespace Subtracao
 {
-    class Subtracao
+    public class Subtracao
     {
         static void Main(string[] args)
         {
         }
 
-        private int Diminui(int numeroUm, int numeroDois)
+        public void Diminui()
         {
-            return numeroUm - numeroDois;
+            Console.WriteLine("Essa aplicação calcula a subtração de dois numeros");
+            Console.WriteLine("Digite o primeiro numero:");
+            int numeroUm = int.Parse(Console.ReadLine());
+            Console.WriteLine("Digite o segundo numero");
+            int numeroDois = int.Parse(Console.ReadLine());
+
+            int resultado = numeroUm - numeroDois;
+
+            Console.WriteLine("O resultado da subtração de " + numeroUm + " - " + numeroDois + " é : " + resultado + " !\n");
         }
     }
 }
