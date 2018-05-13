@@ -20,7 +20,7 @@ namespace Soma
             Console.WriteLine("Digite o segundo numero");
             int numeroDois = int.Parse(Console.ReadLine());
             int calculo = numeroUm + numeroDois;
-            Console.WriteLine("O resultado da adição de " +  numeroUm + "+ " + numeroDois + "é : "+ calculo + " !");
+            Console.WriteLine("O resultado da adição de " +  numeroUm + " + " + numeroDois + " é : "+ calculo + " !");
         }
     }
 }

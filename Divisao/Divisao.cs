@@ -15,7 +15,7 @@ namespace Divisao
             Console.WriteLine("Digite o segundo numero");
             int numeroDois = int.Parse(Console.ReadLine());
 
-            Console.WriteLine("O resultado da Divião de " + numeroUm + "/ " + numeroDois + "é : " + numeroUm / numeroDois + " !");
+            Console.WriteLine("O resultado da Divisão de " + numeroUm + " / " + numeroDois + " é : " + numeroUm / numeroDois + " !");
 
             
         }

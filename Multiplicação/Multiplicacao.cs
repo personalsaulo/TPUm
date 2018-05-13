@@ -1,20 +1,25 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+
 
 namespace Multiplicação
 {
-    class Multiplicacao
+   public class Multiplicacao
     {
         static void Main(string[] args)
         {
         }
 
-        private int Multiplica(int numeroUm, int numeroDois)
-        {
-            return numeroUm * numeroDois;
+        public void Multiplica()
+        {          
+                Console.WriteLine("Essa aplicação calcula a multiplicação de dois numeros");
+                Console.WriteLine("Digite o primeiro numero:");
+                int numeroUm = int.Parse(Console.ReadLine());
+                Console.WriteLine("Digite o segundo numero");
+                int numeroDois = int.Parse(Console.ReadLine());
+
+            int resultado = numeroUm * numeroDois;
+
+                Console.WriteLine("O resultado da multiplicação de " + numeroUm + " x " + numeroDois + " é : " + resultado + " !");
         }
     }
 }
